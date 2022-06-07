@@ -3,8 +3,8 @@
 
     // //Entry data menu(oleh: employee)
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe created successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Menu created successfully",
     //     "name"=>"Secret Boba Tea",
     //     "description"=>"Secret Boba Tea that explode",
     //     "id_employee"=>"1",
@@ -17,8 +17,8 @@
 
     // //Entry data menu(oleh: member)
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe created successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Menu created successfully",
     //     "name"=>"Secret Boba Coffee",
     //     "description"=>"Secret Boba Coffee that explode",
     //     "id_employee"=>"NULL",
@@ -31,8 +31,8 @@
 
     // //Pengecekan ketersediaan data menu(fetch)(by id_employee)(contoh)
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Menu fetched successfully",
     //     "name"=>"Secret Boba Tea",
     //     "description"=>"Secret Boba Tea that explode",
     //     "id_employee"=>"1",
@@ -46,8 +46,8 @@
 
     // //Pengecekan ketersediaan data menu(fetch)(by id_membership)(contoh)
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Menu created successfully",
     //     "name"=>"Secret Boba Coffee",
     //     "description"=>"Secret Boba Coffee that explode",
     //     "id_employee"=>"NULL",
@@ -61,16 +61,15 @@
 
     // //Pengecekan ketersediaan data menu(fetch)(by id_membership)(contoh) not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Secret Menu not found",
-    // );
+    // $response["message"] = "Secret Recipe not found";
+    
     // http_response_code(404);
 
 
     // //Entry data secret recipe detail
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe Detail added successfully";
     // $response["data"] = array(
-    //     "message"=>"Item added successfully",
     //     "id_secret_recipe"=>"1",
     //     "id_ingredient"=>"2",
     //     "ingredient_quantity"=>"200"
@@ -79,8 +78,8 @@
 
     // // Pengecekan ketersediaan secret data recipe detail
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe Detail fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Item added successfully",
     //     "id_secret_recipe"=>"1",
     //     "name"=>"Secret Boba Tea",
     //     "description"=>"Secret Boba Tea that explode",
@@ -108,8 +107,8 @@
 
     // //Edit secret recipe
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Recipe updated successfully",
     //     "name"=>"Secret Boba Tea",
     //     "description"=>"Secret Boba Tea that explode boom",
     //     "id_employee"=>"1",
@@ -122,8 +121,8 @@
 
     // //Edit secret recipe detail
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe Detail updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Recipe detail updated successfully",
     //     "id_secret_recipe"=>"1",
     //     "id_ingredient"=>"2",
     //     "ingredient_quantity"=>"500"
@@ -132,8 +131,8 @@
 
     // //Fetch data secret menu
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Menu fetched successfully",
     //     "name"=>"Secret Boba Tea",
     //     "description"=>"Secret Boba Tea that explode",
     //     "id_employee"=>"1",
@@ -146,8 +145,8 @@
 
     // //Update approval status
     // $response["status"] = "success";
+    // $response["message"] = "Secret Recipe updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Secret Menu status updated successfully",
     //     "id_secret_recipe"=>"1",
     //     "status"=>"2"
     // );

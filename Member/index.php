@@ -3,8 +3,8 @@
 
     // //registrasi akun member
     // $response["status"] = "success";
+    // $response["message"] = "Account created successfully";
     // $response["data"] = array(
-    //     "message"=>"Member created successfully",
     //     "name"=>"Han",
     //     "address"=>"Jalan Raya",
     //     "phone_number"=>"08123456789",
@@ -16,8 +16,8 @@
 
     // //Pengecekan ketersediaan akun Member
     // $response["status"] = "success";
+    // $response["message"] = "Member fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Member fetched successfully",
     //     "name"=>"Han",
     //     "address"=>"Jalan Raya",
     //     "phone_number"=>"08123456789",
@@ -28,16 +28,15 @@
 
     // //Pengecekan ketersediaan akun Member not found
     // $response["status"] = "Not found";
-    // $response["data"] = array(
-    //     "message"=>"Member not found",
-    // );
+    // $response["message"] = "Member not found";
+   
     // http_response_code(404);
     
 
     // // Login akun Member
     // $response["status"] = "success";
+    // $response["message"] = "Member login successfully";
     // $response["data"] = array(
-    //     "message"=> "Sucessfully login",
     //     "id_membership "=> "1",
     //     "email_address"=> "han@han.com",
     //     "name"=> "han",
@@ -46,20 +45,18 @@
 
     // // Login akun Member false credentials
     // $response["status"] = "Unauthorized";
-    // $response["data"] = array(
-    //     "message"=> "Wrong credentials",
-    // );
+    // $response["message"] = "Invalid credentials";
     // http_response_code(401);
 
-    //Edit data Member
+    // Edit data Member
     // $response["status"] = "success";
 
     // //Edit data Member
     // $response["status"] = "success";
+    // $response["message"] = "Member updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Member updated successfully",
     //     "id_membership"=>"1",
-    //     "new_updated_data"=>[
+    //     "new_updated_data"=>
     //         array(
     //             "name"=>"Handrian",
     //             "address"=>"Jalan Raya",
@@ -68,22 +65,22 @@
     //             "point"=>"0",
     //             "password"=>"han123"
     //         )
-    //     ]
+    //     
     // );
     // http_response_code(200);
 
     // //Forgot or change password
     // $response["status"] = "success";
+    // $response["message"] = "Password reset/change successfully";
     // $response["data"] = array(
-    //     "message"=> "Password reset successfully",
     //     "email"=> "han@han.com"
     // );
     // http_response_code(200);
 
     // //Penambahan poin
     // $response["status"] = "success";
+    // $response["message"] = "Point added successfully";
     // $response["data"] = array(
-    //     "message"=> "Point updated successfully",
     //     "id_membership"=> "1",
     //     "new_point"=> "100"
     // );
@@ -91,8 +88,8 @@
 
     // //pengurangan poin
     // $response["status"] = "success";
+    // $response["message"] = "Point subtracted successfully";
     // $response["data"] = array(
-    //     "message"=> "Point updated successfully",
     //     "id_membership"=> "1",
     //     "new_point"=> "50"
     // );

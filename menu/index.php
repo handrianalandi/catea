@@ -3,8 +3,8 @@
 
     //Entry data menu
     // $response["status"] = "success";
+    // $response["message"] = "Recipe created successfully";
     // $response["data"] = array(
-    //     "message"=>"Menu created successfully",
     //     "name"=>"Boba Tea",
     //     "description"=>"ini enak sekali",
     //     "price "=>"20000"
@@ -14,9 +14,9 @@
 
     // //Pengecekan ketersediaan data menu
     // $response["status"] = "success";
+    // $response["message"] = "Menu fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Menu fetched successfully",
-    //     "id_menu"=>"1",
+    //     "id_recipe"=>"1",
     //     "data"=>array(
     //         "name"=>"Boba Tea",
     //         "description"=>"ini enak sekali",
@@ -27,59 +27,39 @@
 
     // //Pengecekan ketersediaan data menu not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Menu not found",
-    // );
+    // $response["message"] = "Menu not found";
+    
     // http_response_code(404);
 
     // //Entry data recipe detail
     // $response["status"] = "success";
+    // $response["message"] = "Recipe created successfully";
     // $response["data"] = array(
-    //     "message"=>"Recipe detail created successfully",
     //     "id_recipe"=>"1",
-    //     "id_menu"=>"1",
+    //     "id_ingredient"=>"1",
     //     "quantity"=>"3"
     // );
     // http_response_code(200);
 
     // // Edit recipe
     // $response["status"] = "success";
+    // $response["message"] = "Recipe updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Recipe updated successfully",
-    //     "menu_id"=>"1",
+    //     "id_recipe"=>"1",
     //     "name"=>"Boba Tea",
-    //     "new_detail"=>[
-    //         array(
+    //     "new_detail"=> array(
     //             "id_recipe"=>"1",
     //             "id_ingredient"=>"1",
     //             "quantity"=>"200"
-    //         ),
-    //         array(
-    //             "id_recipe"=>"1",
-    //             "id_ingredient"=>"2",
-    //             "quantity"=>"1"
-    //         ),
-    //         array(
-    //             "id_recipe"=>"1",
-    //             "id_ingredient"=>"5",
-    //             "quantity"=>"300"
-    //         ),
-    //         array(
-    //             "id_recipe"=> "1",
-    //             "id_ingredient"=> "6",
-    //             "quantity"=> "500"
     //         )
-                
-            
-    //     ]
     // );
     // http_response_code(200);
 
     // //Fetch data menu detail
     // $response["status"] = "success";
+    // $response["message"] = "Detail Recipe fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Detail Menu fetched successfully",
-    //     "id_menu"=>"1",
+    //     "id_recipe"=>"1",
     //     "detail"=>[
     //         array(
     //             "id_recipe"=>"1",
@@ -109,18 +89,17 @@
 
     // //Fetch data menu detail not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Menu detail not found",
-    // );
+    // $response["message"] = "Detail Recipe not found";
+    
     // http_response_code(404);
 
     
 
     // //Fetch data menu
     // $response["status"] = "success";
+    // $response["message"] = "Recipes fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Menu fetched successfully",
-    //     "menu"=>[
+    //     "recipes"=>[
     //         array(
     //             "id"=>"1",
     //             "name"=>"Boba Tea",

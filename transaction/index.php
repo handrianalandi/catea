@@ -3,8 +3,8 @@
 
     // //Entry data transaction
     // $response["status"] = "success";
+    // $response["message"] = "Transaction created successfully";
     // $response["data"] = array(
-    //     "message"=>"Transaction created successfully",
     //     "id_transaction"=>"1",
     //     "id_stall"=>"1",
     //     "id_employee"=>"1",
@@ -17,8 +17,8 @@
 
     // //Add item into transaction
     // $response["status"] = "success";
+    // $response["message"] = "Item added successfully";
     // $response["data"] = array(
-    //     "message"=>"Item added successfully",
     //     "id_transaction"=>"1",
     //     "id_item"=>"1",
     //     "item_quantity"=>"3",
@@ -27,8 +27,8 @@
 
     // //Pengecekan ketersediaan item pada transaction detail berdasarkan transaction(fetch?)
     // $response["status"] = "success";
+    // $response["message"] = "Transaction Fetch successfully";
     // $response["data"] = array(
-    //     "message"=>"transaction fetch successfully",
     //     "id_transaction"=>"1",
     //     "id_stall"=>"1",
     //     "id_employee"=>"1",
@@ -49,11 +49,10 @@
     // http_response_code(200);
 
     // //Pengecekan ketersediaan item pada transaction detail berdasarkan transaction(fetch?) not found
-    $response["status"] = "Not Found";
-    $response["data"] = array(
-        "message"=>"transaction not found",
-    );
-    http_response_code(404);
+    // $response["status"] = "Not Found";
+    // $response["message"] = "Transaction not found";
+    
+    // http_response_code(404);
     
 
     

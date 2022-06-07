@@ -1,10 +1,10 @@
 <?php
     $response = array();
 
-    // //Entry data ingredient
+    // // //Entry data ingredient
     // $response["status"] = "success";
+    // $response["message"] = "Ingredient created successfully";
     // $response["data"] = array(
-    //     "message"=>"Ingredient created successfully",
     //     "name"=>"gula",
     //     "company"=>"abcd",
     //     "id_unit_of_measure "=>"1"
@@ -12,17 +12,17 @@
     // http_response_code(200);
 
 
-    // //Entry data unit of measure
+    // // //Entry data unit of measure
     // $response["status"] = "success";
     // $response["data"] = array(
     //     "name"=>"gram",
     // );
     // http_response_code(200);
 
-    // //Fetch ingredient by company
+    // // //Fetch ingredient by company
     // $response["status"] = "success";
+    // $response["message"] = "Ingredient fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Ingredient fetched successfully",
     //     "company"=>"abcd",
     //     "total_ingredient"=>"2",
     //     "items"=>[
@@ -41,22 +41,20 @@
     // );
     // http_response_code(200);
 
-    // //Fetch ingredient by company not found
+    // // //Fetch ingredient by company not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Ingredient not found",
-    // );
+    // $response["message"] = "Ingredient not found";
+    
     // http_response_code(404);
 
-    // //Edit ingredient
+    // // //Edit ingredient
     // $response["status"] = "success";
+    // $response["message"] = "Ingredient updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Ingredient updated successfully",
-    //     "new_data"=>array(
     //         "name"=>"gula",
     //         "company"=>"abcde",
     //         "id_unit_of_measure "=>"2"
-    //     )
+        
     // );
     
 

@@ -4,8 +4,8 @@
 
     // //Entry data stall
     // $response["status"] = "success";
+    // $response["message"] = "Stall created successfully";
     // $response["data"] = array(
-    //     "message"=>"Stall created successfully",
     //     "location"=>"Jl. Raya",
     // );
     // http_response_code(200);
@@ -13,8 +13,8 @@
 
     // //Pengecekan data stall
     // $response["status"] = "success";
+    // $response["message"] = "Stall fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Stall fetched successfully",
     //     "id_stall"=>"1",
     //     "location"=>"Jl. Raya",
     // );
@@ -22,25 +22,23 @@
 
     // //Pengecekan data stall not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Stall not found",
-    // );
+    // $response["message"] = "Stall not found";
     // http_response_code(404);
     
 
 
     // //Edit data stall
     // $response["status"] = "success";
+    // $response["message"] = "Stall updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Stall updated successfully",
     //     "new_location"=>"Mall Surabaya"
     // );
     // http_response_code(200);
 
     // //Assign employee pada stall
     // $response["status"] = "success";
+    // $response["message"] = "Employee assigned successfully";
     // $response["data"] = array(
-    //     "message"=>"Employee assigned successfully",
     //     "id_employee_"=>"1",
     //     "id_stall"=>"1"
     // );
@@ -48,9 +46,8 @@
 
     // //Edit employee pada stall
     // $response["status"] = "success";
-
+    // $response["message"] = "Employee updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Employee updated successfully",
     //     "new_data"=>[
     //         array(
     //             "id_stall"=>"1",
@@ -66,8 +63,8 @@
 
     // //Add items/ingredients ke stall
     // $response["status"] = "success";
+    // $response["message"] = "Items added successfully";
     // $response["data"] = array(
-    //     "message"=>"Items added successfully",
     //     "id_stall"=>"1",
     //     "id_ingredient"=>"1",
     //     "minimum_item_quantity"=>"20",
@@ -77,8 +74,8 @@
 
     // //Edit items pada stall
     // $response["status"] = "success";
+    // $response["message"] = "Items updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Items updated successfully",
     //     "id_ingredient"=>"1",
     //     "ingredient_quantity"=>"4"
     // );
@@ -86,8 +83,8 @@
 
     // //Fetch employee pada stall
     // $response["status"] = "success";
+    // $response["message"] = "Employee fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Employee fetched successfully",
     //     "id_stall"=>"1",
     //     "employee"=>[
     //         array(
@@ -104,8 +101,8 @@
 
     // //Fetch ingredients pada stall
     // $response["status"] = "success";
+    // $response["message"] = "Ingredients fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Ingredients fetched successfully",
     //     "id_stall"=>"1",
     //     "ingredients"=>[
     //         array(
@@ -126,8 +123,8 @@
 
     // //Fetch stall detail
     // $response["status"] = "success";
+    // $response["message"] = "Stall detail fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Stall details fetched successfully",
     //     "id_stall"=>"1",
     //     "ingredients"=>[
     //         array(

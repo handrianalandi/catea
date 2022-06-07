@@ -4,8 +4,8 @@
 
     // //Entry data warehouse
     // $response["status"] = "success";
+    // $response["message"] = "Warehouse created successfully";
     // $response["data"] = array(
-    //     "message"=>"Warehouse created successfully",
     //     "name"=>"Warehouse 1",
     //     "location"=>"Jl. Raya",
     //     "phone_number"=>"08123456789",
@@ -14,8 +14,8 @@
 
     // //Pengecekan data warehouse(fetch)
     // $response["status"] = "success";
+    // $response["message"] = "Warehouse fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Warehouse fetched successfully",
     //     "id_warehouse"=>"1",
     //     "name"=>"Warehouse 1",
     //     "location"=>"Jl. Raya",
@@ -25,16 +25,14 @@
 
     // //Pengecekan data warehouse(fetch) not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Warehouse not found",
-    // );
+    // $response["message"] = "Warehouse not found";
     // http_response_code(404);
 
 
     // //Edit data warehouse
     // $response["status"] = "success";
+    // $response["message"] = "Warehouse updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Warehouse updated successfully",
     //     "new_data"=>[
     //         "name"=>"Warehouse satu",
     //         "location"=>"Jl. Raya",
@@ -45,8 +43,8 @@
 
     // //Add items/ingredients ke warehouse
     // $response["status"] = "success";
+    // $response["message"] = "Items/Ingredients added successfully";
     // $response["data"] = array(
-    //     "message"=>"Items added successfully",
     //     "id_warehouse"=>"1",
     //     "id_item"=>"1",
     //     "minimum_item_quantity"=>"20",
@@ -56,8 +54,8 @@
 
     // //Edit items pada warehouse
     // $response["status"] = "success";
+    // $response["message"] = "Items/Ingredients updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Items updated successfully",
     //     "id_ingredient"=>"1",
     //     "ingredient_quantity"=>"4"
     // );
@@ -65,8 +63,8 @@
 
     // //Fetch ingredients pada warehouse/fetch warehouse detail
     // $response["status"] = "success";
+    // $response["message"] = "Ingredients fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Ingredients fetched successfully",
     //     "id_warehouse"=>"1",
     //     "name"=>"Warehouse 1",
     //     "location"=>"Jl. Raya",
@@ -90,15 +88,14 @@
 
     // //Fetch ingredients pada warehouse/fetch warehouse detail not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Warehouse not found",
-    // );
+    // $response["message"] = "Ingredients not found";
+    
     // http_response_code(404);
 
     // //Entry Data Purchase Order
     // $response["status"] = "success";
+    // $response["message"] = "Purchase Order created successfully";
     // $response["data"] = array(
-    //         "message"=>"Purchase Order created successfully",
     //         "id_warehouse"=>"1",
     //         "id_item"=>"1",
     //         "demand"=>"10",
@@ -110,8 +107,8 @@
 
     // //Update quantity stock (reserve)
     // $response["status"] = "success";
+    // $response["message"] = "Stock (Reserve) updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Stock (reserve) updated successfully",
     //     "id_purchase_order"=>"1",
     //     "reserve"=>"7",
     // );
@@ -119,8 +116,8 @@
 
     // //Update quantity stock (done)
     // $response["status"] = "success";
+    // $response["message"] = "Stock (Done) updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Stock (done) updated successfully",
     //     "id_purchase_order"=>"1",
     //     "done"=>"5",
     // );
@@ -128,8 +125,8 @@
 
     // //Update quantity stock (status)
     // $response["status"] = "success";
+    // $response["message"] = "Stock (Status) updated successfully";
     // $response["data"] = array(
-    //     "message"=>"Stock (status) updated successfully",
     //     "id_purchase_order"=>"1",
     //     "status"=>"done",
     // );
@@ -137,8 +134,8 @@
 
     // //Fetch data purchase order
     // $response["status"] = "success";
+    // $response["message"] = "Purchase Order fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Purchase Order fetched successfully",
     //     "id_purchase_order"=>"1",
     //     "id_warehouse"=>"1",
     //     "id_item"=>"1",
@@ -151,9 +148,7 @@
 
     // //Fetch data purchase order not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Purchase Order not found",
-    // );
+    // $response["message"] = "Purchase Order not found";
     // http_response_code(404);
 
     

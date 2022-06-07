@@ -1,10 +1,10 @@
 <?php
     $response = array();
 
-    // //Entry penggunaan benefit oleh member
+    // // //Entry penggunaan benefit oleh member
     // $response["status"] = "success";
+    // $response["message"] = "Benefit used successfully";
     // $response["data"] = array(
-    //     "message"=>"Benefit history added successfully",
     //     "id_membership "=>"1",
     //     "id_benefit"=>"1",
     //     "id_transaction"=>"1",
@@ -12,10 +12,10 @@
     // );
     // http_response_code(200);
 
-    // // Fetch data benefit (contoh by id_membership)
+    // // // Fetch data benefit (contoh by id_membership)
     // $response["status"] = "success";
+    // $response["message"] = "Benefit fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Benefit history fetched successfully",
     //     "id_membership "=>"1",
     //     "history"=>[
     //         array(
@@ -32,10 +32,10 @@
     // );
     // http_response_code(200);
 
-    // // Fetch data benefit (contoh by timestamp) 
+    // // // Fetch data benefit (contoh by timestamp) 
     // $response["status"] = "success";
+    // $response["message"] = "Benefit fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Benefit history fetched successfully",
     //     "timestamp"=>"2019-01-01 00:00:00",
     //     "history"=>[
     //         array(
@@ -52,12 +52,11 @@
     // );
     // http_response_code(200);
 
-    // // Fetch data benefit (contoh by timestamp) not found
-    $response["status"] = "Not Found";
-    $response["data"] = array(
-        "message"=>"Benefit history not found",
-    );
-    http_response_code(404);
+    // // // Fetch data benefit (contoh by timestamp) not found
+    // $response["status"] = "Not Found";
+    // $response["message"] = "Benefit not found";
+    
+    // http_response_code(404);
 
 
     

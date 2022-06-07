@@ -1,10 +1,10 @@
 <?php
     $response = array();
 
-    // //Pengecekan ketersediaan akun pegawai(fetch)
+    // // //Pengecekan ketersediaan akun pegawai(fetch)
     // $response["status"] = "success";
+    // $response["message"] = "Employee fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Employee fetched successfully",
     //     "id_employee"=>"1",
     //     "name"=>"han",
     //     "address"=>"alamat han",
@@ -13,34 +13,31 @@
     // );
     // http_response_code(200);
 
-    // //Pengecekan ketersediaan akun pegawai(fetch) not found
+    // // //Pengecekan ketersediaan akun pegawai(fetch) not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Employee not found",
-    // );
+    // $response["message"] = "Employee not found";
     // http_response_code(404);
 
-    // //Pengecekan ketersediaan data tipe pegawai(fetch)
+    // // //Pengecekan ketersediaan data tipe pegawai(fetch)
     // $response["status"] = "success";
+    // $response["message"] = "Employee type fetched successfully";
     // $response["data"] = array(
-    //     "message"=>"Employee type fetched successfully",
     //     "id_employee_type"=>"1",
     //     "name"=>"Manager",
     // );
     // http_response_code(200);
 
-    // //Pengecekan ketersediaan data tipe pegawai(fetch) not found
+    // // //Pengecekan ketersediaan data tipe pegawai(fetch) not found
     // $response["status"] = "Not Found";
-    // $response["data"] = array(
-    //     "message"=>"Employee type not found",
-    // );
+    // $response["message"] = "Employee type not found";
+    
     // http_response_code(404);
 
 
-    // //login employee
+    // // //login employee
     // $response["status"] = "success";
+    // $response["message"] = "Employee login successfully";
     // $response["data"]= array(
-    //     "message"=> "Sucessfully login",
     //     "id_employee"=> "1",
     //     "email_address"=> "han@han.com",
     //     "name"=> "han",
@@ -48,10 +45,10 @@
     // );
     // http_response_code(200);
 
-    // //edit employee
+    // // //edit employee
     // $response["status"] = "success";
+    // $response["message"] = "Employee updated successfully";
     // $response["data"]= array(
-    //     "message"=> "Updated Successfully",
     //     "id_employee"=> "1",
     //     "new_updated_data"=> array(
     //         "email"=> "han@han.com",
