@@ -37,11 +37,13 @@
     //     "total"=>"25000",
     //     "items"=>[
     //         array(
-    //             "id_item"=>"1",
+    //             "id_recipe"=>"1",
+    //             "recipe_name"=>"Boba Tea",
     //             "item_quantity"=>"3",
     //         ),
     //         array(
-    //             "id_item"=>"2",
+    //             "id_recipe"=>"2",
+    //             "recipe_name"=>"Coffee",
     //             "item_quantity"=>"2",
     //         )
     //     ]

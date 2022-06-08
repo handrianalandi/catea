@@ -60,29 +60,22 @@
     // $response["message"] = "Detail Recipe fetched successfully";
     // $response["data"] = array(
     //     "id_recipe"=>"1",
-    //     "detail"=>[
+    //     "ingredients"=>[
     //         array(
-    //             "id_recipe"=>"1",
     //             "id_ingredient"=>"1",
+    //             "name"=>"teh",
     //             "quantity"=>"200"
     //         ),
     //         array(
-    //             "id_recipe"=>"1",
     //             "id_ingredient"=>"2",
+    //             "name"=>"gula",
     //             "quantity"=>"1"
     //         ),
     //         array(
-    //             "id_recipe"=>"1",
     //             "id_ingredient"=>"5",
+    //             "name"=>"air",
     //             "quantity"=>"300"
-    //         ),
-    //         array(
-    //             "id_recipe"=> "1",
-    //             "id_ingredient"=> "6",
-    //             "quantity"=> "500"
     //         )
-                
-            
     //     ]
     // );
     // http_response_code(200);

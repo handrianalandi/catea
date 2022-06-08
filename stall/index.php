@@ -106,14 +106,14 @@
     //     "id_stall"=>"1",
     //     "ingredients"=>[
     //         array(
-    //             "id_stall"=> "1",
     //             "id_ingredient"=> "1",
+    //             "ingredient_name"=> "teh",
     //             "minimum_item_quantity"=> "2",
     //             "ingredient_quantity"=> "5"
     //         ),
     //         array(
-    //             "id_stall"=> "1",
     //             "id_ingredient"=> "2",
+    //             "ingredient_name"=> "gula",
     //             "minimum_item_quantity"=> "300",
     //             "ingredient_quantity"=> "500"
     //         )

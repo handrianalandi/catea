@@ -85,13 +85,13 @@
     //     "status"=>"2",
     //     "ingredients"=>[
     //         array(
-    //             "id_delivery"=>"1",
     //             "id_ingredient"=>"1",
+    //             "ingredient_name"=>"teh",
     //             "ingredient_quantity"=>"4"
     //         ),
     //         array(
-    //             "id_delivery"=>"1",
     //             "id_ingredient"=>"2",
+    //             "ingredient_name"=>"gula",
     //             "ingredient_quantity"=>"4"
     //         )
     //     ]

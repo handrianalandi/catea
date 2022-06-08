@@ -91,16 +91,14 @@
     //     "ingredients"=>[
     //         array(
     //             "id_ingredient"=>"1",
+    //             "name"=>"teh",
     //             "ingredient_quantity"=>"200"
     //         ),
     //         array(
     //             "id_ingredient"=>"2",
+    //             "name"=>"gula",
     //             "ingredient_quantity"=>"1"
     //         ),
-    //         array(
-    //             "id_ingredient"=>"5",
-    //             "ingredient_quantity"=>"300"
-    //         )
     //     ]
     // );
     // http_response_code(200);
@@ -151,13 +149,6 @@
     //     "status"=>"2"
     // );
     // http_response_code(200);
-
-
-
-    
-
-
-    
 
     
     header('Content-Type: application/json');
